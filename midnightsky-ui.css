@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --teal: #00b1bb;
+    --white: #ffffff;
+    --darkblue: #14385d;
+    --purple: #7070b3;
+    --paleblue: #f3fbfe;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.midnight {
+    color: var(--darkblue);
+    font-size: 5rem;
+    margin-top: 0;
+}
+
+.the {
+    font-size: 3rem;
+}
+
+.sky {
+    color: var(--teal);
+    white-space: nowrap;
+}
+
+.left-card {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: left;
+    justify-content: center;
+}
+
+.right-card{
+    padding: 1rem;
+    grid-area: right;
+}
+
+.right-card > img {
+    width: 100%;
+}
+
+.primary-btn {
+    background-color: var(--white);
+    border: 3px solid var(--teal);
+    border-radius: 15px;
+    padding: 0.5rem;
+    font-size: large;
+    margin: 1rem;
+}
+
+.wrapper-main {
+    display: grid;
+    grid-template-areas: 
+        "left left right right"
+        "left left right right";
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .wrapper-main {
+        display: grid;
+        grid-template-areas: 
+            "left left"
+            "right right";
+    }
+  }
