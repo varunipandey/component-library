@@ -209,18 +209,123 @@
         </div>
     </div>
 
+    <!-- Navigation -->
+
+    <div  id="navigation" class="container container-center">
+        <h1 class="heading">Navbar</h1>
+        <p>Navbar with brand name on the left most end and then a list of buttons making up the rest of the navigation bar. </p>
+        <nav class="navigation-container">
+            <div class="nav-brand btn "> <h2>The Midnight Sky UI</h2></div>
+            <ul class="nav-list-container">
+                <li class="nav-list-item">
+                    <button class="btn primary-btn"><a href="#">Home</a></button>
+                </li>
+                <li class="nav-list-item">
+                    <button class="btn primary-btn"><a href="#">Github</a></button>
+                </li>
+                <li class="nav-list-item">
+                    <button class="btn primary-btn"><a href="#">About</a></button>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="code">
+           <p> 
+            &lt;nav class="navigation-container"&gt; <br>
+            &lt;div class="nav-brand btn "&gt; &lt;h2&gt;The Midnight Sky UI&lt;/h2&gt;&lt;/div&gt;<br>
+            &lt;ul class="nav-list-container"&gt;<br>
+                &lt;li class="nav-list-item"&gt;<br>
+                    &lt;button class="btn primary-btn"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/button&gt;<br>
+                &lt;/li&gt;<br>
+                &lt;li class="nav-list-item"&gt;<br>
+                    &lt;button class="btn primary-btn"&gt;&lt;a href="#"&gt;Github&lt;/a&gt;&lt;/button&gt;<br>
+                &lt;/li&gt;<br>
+                &lt;li class="nav-list-item"&gt;<br>
+                    &lt;button class="btn primary-btn"&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/button&gt;<br>
+                &lt;/li&gt;<br>
+            &lt;/ul&gt;<br>
+        &lt;/nav&gt;<br>
+            </p>
+        </div>
+    </div>
+
+    <!-- Rating -->
+
+    <div  id="rating" class="container container-center alternate">
+        <h1 class="heading">Rating</h1>
+
+        <p>To use stars for rating, create a div with class "stars". And then pass the rating value as an inlined custom CSS property (--rating). This means there is no additional rendering logic required, except for displaying the same rating value in the label for better accessibility.</p>
+        
+       <div class="stars" style="--rating: 2.5;" aria-label="Rating of this product is 2.5 out of 5."></div>
+
+        <div class="code">
+           <p> 
+            &lt;div class="stars" style="--rating: 2.5;" aria-label="Rating of this product is 2.5 out of 5."&gt;&lt;/div&gt;
+           </p>
+        </div>
+    </div>
+
+     <!-- Text Utilities -->
+
+     <div  id="text-util" class="container container-center">
+        <h1 class="heading">Text Utilities</h1>
+
+        <h1>This is h1 heading.</h1>
+        <h2>This is h2 heading.</h2>
+        <p> This is normal text.</p>
+
+        </div>
+    </div>
+
+    
+
+    <!-- Simplified grid -->
+
+    <div  id="simplegrid" class="container container-center alternate">
+        <h1 class="heading">Simplified grid</h1>
+
+        <p>Use to table class to wrap the whole grid. Use row class to fit contents in a row with appropriate column class name as required. </p>
+        
+      <div class="table">
+          <div class="row">
+              <div class="col-1">One</div>
+          </div>
+          <div class="row">
+            <div class="col-2">Two</div>
+            <div class="col-2">Two</div>
+            </div>
+            <div class="row">
+                <div class="col-3">Three</div>
+                <div class="col-3">Three</div>
+                <div class="col-3">Three</div>
+            </div>
+        </div>
+
+
+        <div class="code">
+           <p> 
+            &lt;div class="table"&gt; <br>
+            &lt;div class="row"&gt; <br>
+            &lt;div class="col-1"&gt;One&lt;/div&gt; <br>
+            &lt;/div&gt; <br>
+            &lt;/div&gt; <br>
+           </p>
+        </div>
+    </div>
+
+
+
+    <!-- Toast -->
 
     <!-- Cards -->
 
     <!-- Input -->
 
-    <!-- Navigation -->
-
     <!-- Modal -->
 
-    <!-- Rating -->
+    
 
-    <!-- Text Utilities -->
+
 
 </body>
 </html>
