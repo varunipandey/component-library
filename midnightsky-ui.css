@@ -17,6 +17,19 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* .wrapper-whole {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-header {
+    position: fixed;
+    top: 0;
+}
+.wrapper-content {
+    margin-top: 8rem;
+} */
 .primary-btn > a {
     text-decoration: none;
     color: var(--darkblue);
@@ -236,6 +249,23 @@ body {
     border-radius: 50%;
 }
 
+.secondary-btn > a {
+    text-decoration: none;
+    background-color: var(--darkblue);
+    color: var(--white);
+    border: 1px solid var(--darkblue);
+}
+
+.link-btn > a {
+    text-decoration: none;
+    background-color: var(--paleblue);
+    color: var(--darkblue);
+}
+
+.floating-btn > a {
+    text-decoration: none;
+}
+
 
 
 /* Images */
@@ -288,6 +318,7 @@ body {
 .navigation-container {
     display: flex;
     flex-direction: row;
+    background-color: var(--white);
 }
 .nav-list-container {
     display: flex;
