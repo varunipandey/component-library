@@ -300,8 +300,7 @@ body {
 
 /* Stars */
 
-
-  
+ 
   .stars {
     --percent: calc(var(--rating) / 5 * 100%);
     
